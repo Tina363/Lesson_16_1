@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display-swap");
+
+body {
+  font-family: "Lato", "Arial", serif;
+  font-weight: 400;
+  color: #424551;
+  line-height: 1.6;
+  background: #fff;
+}
+
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* flex: 1 1 auto; */
+}
+
+.wrapper>main {
+  flex-grow: 1;
+
+}
+
+[class*="__container"] {
+  max-width: 1315px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+input {
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 456px;
+}
