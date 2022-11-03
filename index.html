@@ -16,11 +16,55 @@
       
     </header>
     <main class="page">
-      <div class="page__container">
-        <input type="text">
+      <div class="page__form-block block-form">
+        <div class="block-form__container">
+          <div class="block-form__img">
+            <img src="img/illustration.svg" alt="Illustration">
+          </div>
+          <div class="block-form__main main-form">
+<div class="main-form__title title">
+<h3 class="title__label">Any questions?</h3>
+<h2 class="title__main-title">Drop us a line</h2>
+</div>
+<form class="main-form__form form" action="#" method="post">
+  <div class="form__line">
+    <label class="form__label"><span>First Name*</span> 
+      <input class="form__input" type="text" name="first-name" required tabindex="1" placeholder="Your first name"></input>
+    </label>
+  </div>
+  <div class="form__line">
+    <label class="form__label"><span>Last  Name*</span>
+      <input class="form__input" type="text" name="last-name" required tabindex="2" placeholder="Your last name"></input>
+    </label>
+  </div>
+  <div class="form__line">
+    <label class="form__label"><span>Email*</span>
+      <input class="form__input" type="email" name="mail" required tabindex="3" placeholder="Your working email"></input>
+    </label>
+  </div>
+  <div class="form__line">
+    <label class="form__label"><span>Phone</span>
+      <input class="form__input" type="tel" name="tel" required tabindex="4" placeholder="Your phone number"></input>
+    </label>
+  </div>
+  <div class="form__line form__line_textarea">
+    <label class="form__label"><span>Message*</span>
+      <textarea class="form__textarea" name="text" required tabindex="5" placeholder="Your message"></textarea>
+    </label>
+  </div>
+  <div class="form__line">
+    <label class="form__label"><span>I agree to receive communications from Createx Online School</span>
+      <input class="form__input" type="checkbox" checked name="agree" required tabindex="5" placeholder="Your phone number"></input>
+    </label>
+  </div>
+  <div class="form__line">
+    <button class="form__button button">Send message</button>
+  </div>
+</div>
+          </div>
+        </div>
+        
       </div>
-
-      
     </main>
     <footer class="footer"></footer>
   </div>
